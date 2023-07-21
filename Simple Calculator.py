@@ -1,4 +1,4 @@
-
+""" by Mayendra Dwika Prayudha"""
 """ Simple calculator for add, subtract,multiply and divide with function"""
 
 # add function
@@ -35,6 +35,6 @@ elif choice == '4':
    try:
        print(num1,"/",num2,"=", divide(num1,num2))
    except:
-       print("input salah")
+       print("Wrong Input Cant divide by zero")
 else:
-   print("Input salah")
+   print(" Wrong Input Try Again")
